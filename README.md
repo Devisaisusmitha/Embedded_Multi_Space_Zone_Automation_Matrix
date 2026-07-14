@@ -64,9 +64,31 @@ Instead of using the blocking `delay()` function (which freezes the processor an
 
 ---
 
+## 🗺️ Circuit Diagram
+Below is the complete physical breadboard layout and signal routing diagram mapped out via Fritzing. This diagram matches the pin definitions outlined in the architecture tables above.
+(circuit.jpg)
+
+
+---
+
+## 📺 Live Demonstration Video
+
+Click the preview window below to watch the EMSZAM system prototype operating in real-time on the testing bench, showing automated zone tracking, dynamic `millis()` grace-period countdowns, and load-switching execution:
+
+(demo.gif)
+
+> 💡 *Note: The video highlights the responsiveness of the non-blocking state machine when motion shifts asynchronously between Input Zone A and Input Zone B.*
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 * **Arduino IDE** (v1.8.x or later / 2.x)
 * **LiquidCrystal_I2C Library** (Install via Arduino Library Manager)
 
+### Installation & Flashing
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/EMSZAM.git](https://github.com/YOUR_USERNAME/EMSZAM.git)
+   cd EMSZAM
