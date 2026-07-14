@@ -66,7 +66,7 @@ Instead of using the blocking `delay()` function (which freezes the processor an
 
 ## 🗺️ Circuit Diagram
 Below is the complete physical breadboard layout and signal routing diagram mapped out via Fritzing. This diagram matches the pin definitions outlined in the architecture tables above.
-![Circuit Diagram](circuit.png)
+![Circuit Diagram](circuit.jpg)
 
 
 ---
