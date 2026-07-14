@@ -70,8 +70,3 @@ Instead of using the blocking `delay()` function (which freezes the processor an
 * **Arduino IDE** (v1.8.x or later / 2.x)
 * **LiquidCrystal_I2C Library** (Install via Arduino Library Manager)
 
-### Installation & Flashing
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/EMSZAM.git](https://github.com/YOUR_USERNAME/EMSZAM.git)
-   cd EMSZAM
